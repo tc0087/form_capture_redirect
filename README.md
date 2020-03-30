@@ -8,7 +8,9 @@
 
 * The body of the request is made easily accessible via the body-parser package and the following line of code:
 
-```app.use(bodyParser.urlencoded({extended: true}))```
+```
+	app.use(bodyParser.urlencoded({extended: true}))
+```
 
 You can then access the body via:
 
