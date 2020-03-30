@@ -2,7 +2,9 @@
 
 * An html form can be sent to the browser:
 
-```	res.send('<form action="/product" method="POST"><input type="text" name="title"><button type="submit">Submit</button></form')```
+```
+	res.send('<form action="/product" method="POST"><input type="text" name="title"><button type="submit">Submit</button></form')
+```
 
 * The method dictates what kind of request is being made. The action dictates what url the request is sent to.
 
@@ -14,4 +16,6 @@
 
 You can then access the body via:
 
-	```req.body```
+```
+	req.body
+```
