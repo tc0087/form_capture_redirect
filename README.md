@@ -8,8 +8,8 @@
 
 * The body of the request is made easily accessible via the body-parser package and the following line of code:
 
-&nbsp&nbsp&nbsp&nbsp```app.use(bodyParser.urlencoded({extended: true}))```
+```app.use(bodyParser.urlencoded({extended: true}))```
 
 You can then access the body via:
 
-&nbsp&nbsp&nbsp&nbsp```req.body```
+	```req.body```
